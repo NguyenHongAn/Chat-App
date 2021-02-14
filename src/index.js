@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import store from './store/configStore';
 import {Provider} from 'react-redux';
+//import "./assets/scss/material-kit-react.scss?v=1.9.0";
 
 ReactDOM.render(
   <Provider store={store}>

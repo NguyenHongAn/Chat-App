@@ -3,8 +3,8 @@ import authReducer from './authReducer';
 import chatReducer from './chatReducer';
 
 const allReducers = combineReducers({
-    authReducer: authReducer,
-    chatReducer: chatReducer,
+    auth: authReducer,
+    chat: chatReducer,
 })
 
 export default allReducers;
