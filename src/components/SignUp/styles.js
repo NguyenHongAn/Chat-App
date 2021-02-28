@@ -1,6 +1,6 @@
-import {makeStyles} from '@material-ui/core/styles';
+import {makeStyles} from "@material-ui/core";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme)=> ({
     root:{
         height: "100vh",
         width: "100%",
@@ -29,7 +29,6 @@ const useStyles = makeStyles((theme) => ({
     },
     button:
     {
-        margin: theme.spacing(2,0,2,0) + "!important",
         backgroundColor: theme.palette.primary.main + "!important",
         color: theme.palette.primary.contrastText + "!important",
         '&:hover': {

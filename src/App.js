@@ -4,6 +4,8 @@ import RealTimeSocket from './realtime';
 import Auth from './containers/Auth';
 import {ThemeProvider} from "@material-ui/core";
 import theme from "./config/UI.cfg";
+import { ToastContainer } from 'react-toastify';
+
 
 function App() {  
     //RealTimeSocket.getInstance();
@@ -12,7 +14,9 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
         <BrowserRouter>
-        
+            <ToastContainer
+            hideProgressBar={true}
+            ></ToastContainer>
             <Switch>
                 <Route exact path="/"
                 render={(props)=>{
